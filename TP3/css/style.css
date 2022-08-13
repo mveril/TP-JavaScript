@@ -1,0 +1,35 @@
+@media (prefers-color-scheme: dark) {
+  body:not(.theme-light) {
+      background-color: var(--bs-dark);
+      color: var(--bs-light);
+  }
+  body:not(.theme-light) .navbar{
+    --bs-navbar-color: var(--bs-navbar-color-light);
+    --bs-navbar-brand-color: var(--bs-navbar-brand-color-dark);
+  }
+}
+
+body.theme-dark {
+  background-color: black;
+  color: white;
+}
+
+.card{
+  --bs-card-bg:
+}
+
+body:not(.theme-light) {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+body:not(.theme-light) .navbar{
+  --bs-navbar-color: var(--bs-navbar-brand-color-dark);
+  --bs-navbar-brand-color: var(--bs-navbar-brand-color-dark);
+}
+.btn-theme i.fa-moon-o {
+  background-color: var(--bs-dark)
+}
+
+.btn-theme i.fa-sun-o {
+  background-color: var(--bs-light)
+}
