@@ -1,0 +1,14 @@
+.counter{
+  font-weight: bold;
+}
+.counter[data-numberType="null"]{
+  color: black;
+}
+
+.counter[data-numberType="negative"]{
+  color: red;
+}
+
+.counter[data-numberType="positive"]{
+  color: green;
+}
