@@ -20,7 +20,7 @@ Les 4 catégories sont :
 - `shakes` : Affiche uniquementles données de la categorie _Shakes_
 - `dinner` : Affiche uniquement les données de la categorie _dinner_
 Voici les données du menu:
-``` json
+``` javascript
 [
   {
     id: 1,
@@ -133,7 +133,7 @@ const formatedDate = moment(date).format("MMMM Do, YYYY");
 ```
 
 Voici la liste des articles
-```json
+```javascript
 [
 {
 id: 1,
@@ -203,7 +203,7 @@ Pour une intégration simple, vous pouvez insérer cette balise
 ```
 dans `head` de votre fichier **HTML** pour charger les icones.
 L’information qui va être affichée par défaut quand la page est chargé est le premier element du tableau ci-dessous:
-```json
+```javascript
 [
   {
     id: 1,
