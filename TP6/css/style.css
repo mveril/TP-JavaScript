@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background:var(--background);
+}
+
+:root{
+  --blue:#51a0D2;
+  --ddark-blue: #26313d;
+  --dark-blue: #325F7B;
+  --background: #f1f4f9;
+}
+
+.carousel{
+  background-color: #fff;
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  box-shadow: 10px -5px 0px var(--blue);
+}
+
+.badge{
+  color: #fff;
+  background-color: #51A0D2;
+  border-radius: 50%;
+  padding: 0.7rem;
+  position: absolute;
+  left:4%;
+  top: 3%;
+}
+
+.img-box
+{
+    position: relative;
+    display: inline-block;
+    padding: auto;
+    margin-top: 2rem;
+}
+
+.blue-bar {
+  background-color: var(--blue);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 5px;
+  width: 50px;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+.btn-nav{
+  border:none;
+  background-color: transparent;
+
+}
+button > .fas{
+  color: var(--blue);
+  cursor: pointer;
+}
+
+button > .fas:hover{
+  color: var(--dark-blue);
+}
+
+.job-title{
+  color: var(--blue);
+  font-weight: 600;
+}
+.name-title{
+  color: var(--ddark-blue);
+  font-weight: 600;
+}
