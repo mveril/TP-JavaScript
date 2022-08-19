@@ -13,6 +13,7 @@ body {
 .carousel{
   background-color: #fff;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
 }
 
 .profile-picture {
@@ -35,10 +36,10 @@ body {
 
 .img-box
 {
-    position: relative;
-    display: inline-block;
-    padding: auto;
-    margin-top: 2rem;
+  position: relative;
+  display: inline-block;
+  padding: auto;
+  margin-top: 2rem;
 }
 
 .blue-bar {
